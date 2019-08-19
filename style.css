@@ -1,0 +1,21 @@
+/* Flexbox for articles */
+#section1{
+    display:flex;
+    justify-content: space-between;
+    align-content:center;
+    width: 50vw;
+    margin-top: 7em;
+    flex-flow: row
+}
+
+#article1{
+    border:solid lightblue;
+    width:25vw;
+    height: 20vh
+}
+
+#article2{
+    border:solid orange;
+    width:25vw;
+    height:20vh;
+}
